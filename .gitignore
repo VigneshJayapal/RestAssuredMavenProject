@@ -19,6 +19,3 @@ Thumbs.db
 
 # Maven Wrapper
 !.mvn/wrapper/maven-wrapper.jar
-
-# IMPORTANT: Always keep testng.xml
-!testng.xml
