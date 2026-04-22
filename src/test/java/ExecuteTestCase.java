@@ -1,7 +1,10 @@
+import io.qameta.allure.testng.AllureTestNg;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners({AllureTestNg.class})
 public class ExecuteTestCase {
 
     public static UserService userService = new UserService();
