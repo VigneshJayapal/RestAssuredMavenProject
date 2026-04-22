@@ -1,39 +1,31 @@
+# Maven build output
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# Allure (generated reports)
+allure-results/
+allure-report/
+
+# IntelliJ
+.idea/
 *.iml
-*.ipr
 
-### Eclipse ###
-.apt_generated
+# Eclipse
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# Logs
+*.log
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# IMPORTANT: Always keep testng.xml
+!testng.xml
