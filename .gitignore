@@ -1,10 +1,6 @@
 # Maven build output
 target/
 
-# Allure (generated reports)
-allure-results/
-allure-report/
-
 # IntelliJ
 .idea/
 *.iml
